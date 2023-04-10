@@ -1,3 +1,9 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Mar  1 13:47:07 2023"
+  rime_version: 1.5.3
 patch:
   schema_list:
     - schema: luna_pinyin_simp # 朙月拼音
@@ -5,7 +11,7 @@ patch:
     - schema: double_pinyin # 自然码双拼
     - schema: numbers # 大写数字
 
-  menu/page_size: 9 # 候选词个数
+  menu/page_size: 6 # 候选词个数
 
   # 若 caps 切换大小写无效, 打开 Mac 系统偏好设置 > 键盘 > 输入法 > 取消勾选[使用大写锁定键切换“美国”输入模式]
   ascii_composer/good_old_caps_lock: true # 若为 true， Caps 只切换大小写
